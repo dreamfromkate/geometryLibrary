@@ -20,4 +20,12 @@ public final class GeometryUtils {
     public static double inchesToCm(double inches) {
         return inches * 2.54;
     }
+
+    public static double centimeterToMeter(double centimeter) {
+        return centimeter * 100;
+    }
+
+    public static double meterToCentimeter(double meter) {
+        return meter / 100;
+    }
 }
