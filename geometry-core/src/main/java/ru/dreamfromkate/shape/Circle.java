@@ -1,6 +1,6 @@
-package shape;
+package ru.dreamfromkate.shape;
 
-import interfase.Shape;
+import ru.dreamfromkate.interfase.Shape;
 
 public class Circle implements Shape {
 

@@ -1,6 +1,6 @@
-package shape;
+package ru.dreamfromkate.shape;
 
-import interfase.Shape;
+import ru.dreamfromkate.interfase.Shape;
 
 public class Triangle implements Shape {
     private final double a;
@@ -11,7 +11,7 @@ public class Triangle implements Shape {
         if (a + b <= c || a + c <= b || b + c <= a) {
             throw new IllegalArgumentException("Треугольника с такими сторонами не существует!");
         }
-        if (a > 0 && b > 0 && c > 0) {
+        if (a < 0 && b < 0 && c < 0) {
             throw new IllegalArgumentException("Стороны должны быть положительными");
         }
 
